@@ -1,0 +1,55 @@
+.container_cards {
+    margin: 60px 0;
+    border-radius: 50%;
+
+}
+
+.container_cards .card {
+    margin: 0 0 10% 1% !important;
+    
+}
+
+.infected {
+    border-top: 20px solid #8E44AD;
+    border-bottom: 10px solid #8E44AD;
+    
+
+}
+.infected:hover  {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.7);
+   
+  
+}
+
+
+.recovered {
+    border-top: 20px solid #26C281;
+    border-bottom: 10px solid #26C281;
+}
+.recovered:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.7);
+   
+}
+
+
+.deaths {
+    border-top: 20px solid #C93756;
+    border-bottom: 10px solid #C93756;
+}
+.deaths:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.7);
+    
+}
+
+
+@media (max-width: 770px) {
+    .container_cards .card {
+        margin: 2% 0 !important;
+    }
+}
